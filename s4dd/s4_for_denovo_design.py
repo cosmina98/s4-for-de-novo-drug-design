@@ -9,9 +9,9 @@ import torch.nn.functional as F
 import tqdm
 from torch import nn
 
-from . import smiles_utils, torch_callbacks
-from .dataloaders import create_dataloader
-from .module_library.sequence_model import SequenceModel
+import smiles_utils, torch_callbacks
+from dataloaders import create_dataloader
+from module_library.sequence_model import SequenceModel
 
 
 class StructuredStateSpaceSequenceModel(nn.Module):
