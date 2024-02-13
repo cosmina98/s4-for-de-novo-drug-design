@@ -3,7 +3,7 @@ from typing import Dict, List, Tuple
 
 import torch
 
-from . import smiles_utils
+import smiles_utils
 
 
 class PaddedLabelEncodedDataset(torch.utils.data.Dataset):
